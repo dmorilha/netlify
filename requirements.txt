@@ -99,7 +99,7 @@ ipykernel==6.29.0
     # via
     #   jupyterlab
     #   nikola
-ipython==8.20.0
+ipython==8.12.3
     # via ipykernel
 isoduration==20.11.0
     # via jsonschema
