@@ -262,11 +262,6 @@ python-json-logger==2.0.7
     # via jupyter-events
 pyyaml==6.0.1
     # via jupyter-events
-pyzmq==25.1.2
-    # via
-    #   ipykernel
-    #   jupyter-client
-    #   jupyter-server
 referencing==0.32.1
     # via
     #   jsonschema
