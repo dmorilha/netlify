@@ -284,10 +284,6 @@ rfc3986-validator==0.1.1
     # via
     #   jsonschema
     #   jupyter-events
-rpds-py==0.17.1
-    # via
-    #   jsonschema
-    #   referencing
 ruamel-yaml==0.18.5
     # via
     #   -r requirements.in
