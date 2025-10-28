@@ -983,7 +983,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>'
+CONTENT_FOOTER = 'Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> - Hosted on <a href="https://netlify.com" rel="nofollow">Netlify</a> - Repository at <a href="https://github.com/dmorilha/netlify" rel="nofollow">Github</a> '
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
