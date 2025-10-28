@@ -20,10 +20,10 @@ BLOG_AUTHOR = "Daniel Morilha"  # (translatable)
 BLOG_TITLE = "Daniel Morilha"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://www.dmorilha.com/"
+SITE_URL = "https://dmorilha.netlify.app/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "https://www.dmorilha.com/"
+# BASE_URL = "https://dmorilha.netlify.app/"
 BLOG_EMAIL = "startrix@pm.me"
 BLOG_DESCRIPTION = {"en": "This is my personal website"}  # (translatable)
 
@@ -139,19 +139,16 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 #          with a ``/``, otherwise end them with ``/index.html`` — or
 #          else they won’t be highlighted when active.
 
-# NAVIGATION_LINKS = {
-#     DEFAULT_LANG: (
-#         ("/archive.html", "Archive"),
-#         ("/categories/", "Tags"),
-#         ("/rss.xml", "RSS feed"),
-#     ),
-# 
-#     "pt_br": (
-#         ("/pt_br/archive.html", "Arquivo"),
-#         ("/pt_br/categories/", "Tags"),
-#         ("/pt_br/rss.xml", "Feed RSS"),
-#     ),
-# }
+NAVIGATION_LINKS = {
+    DEFAULT_LANG: (
+        ("/resume-daniel-morilha.pdf", "curriculum vitae"),
+    ),
+#   "pt_br": (
+#       ("/pt_br/archive.html", "Arquivo"),
+#       ("/pt_br/categories/", "Tags"),
+#       ("/pt_br/rss.xml", "Feed RSS"),
+#   ),
+}
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
@@ -661,7 +658,7 @@ ATOM_FILENAME_BASE = "feed"
 # relative URL.
 #
 # If you don't need any of these, just set to []
-REDIRECTIONS = [("/", "/pages/curriculum-vitae/")]
+# REDIRECTIONS = [("/", "/pages/curriculum-vitae/")]
 
 # Presets of commands to execute to deploy. Can be anything, for
 # example, you may use rsync:
@@ -1015,8 +1012,8 @@ CONTENT_FOOTER_FORMATS = {
 
 # A simple copyright tag for inclusion in RSS feeds that works just
 # like CONTENT_FOOTER and CONTENT_FOOTER_FORMATS
-RSS_COPYRIGHT = 'Contents © {date} <a href="mailto:{email}">{author}</a> {license}'
-RSS_COPYRIGHT_PLAIN = 'Contents © {date} {author} {license}'
+RSS_COPYRIGHT = ''
+RSS_COPYRIGHT_PLAIN = ''
 RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 
 # To use comments, you can choose between different third party comment
@@ -1067,7 +1064,7 @@ PRETTY_URLS = True
 
 # If True, publish future dated posts right away instead of scheduling them.
 # Defaults to False.
-# FUTURE_IS_NOW = False
+FUTURE_IS_NOW = False
 
 # If True, future dated posts are allowed in deployed output
 # Only the individual posts are published/deployed; not in indexes/sitemap
@@ -1353,13 +1350,14 @@ GENERATE_RSS = False
 # USE_BUNDLES = True
 
 # Plugins you don't want to use. Be careful :-)
-DISABLED_PLUGINS = ["render_galleries", "render_taxonomies"]
+DISABLED_PLUGINS = ["render_galleries",]
+# INDEX_FILE = 'blog.html'
 
 # Special settings to disable only parts of the indexes plugin.
 # Use with care.
-# DISABLE_INDEXES = False
-# DISABLE_MAIN_ATOM_FEED = False
-# DISABLE_MAIN_RSS_FEED = False
+DISABLE_INDEXES = False
+DISABLE_MAIN_ATOM_FEED = True
+DISABLE_MAIN_RSS_FEED = True
 
 # Add the absolute paths to directories containing plugins to use them.
 # For example, the `plugins` directory of your clone of the Nikola plugins
