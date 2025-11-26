@@ -9,7 +9,7 @@
 
 .. class:: lead
 
-   My generation will leave one important lesson to history, and that is democracy toes (trumps) growth...
+   My generation will leave one important lesson to history, and that is democracy tolls (trumps) growth...
 
 
    (We are a month shy of Christimas)
