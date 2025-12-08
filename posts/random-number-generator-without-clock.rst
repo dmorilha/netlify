@@ -7,4 +7,4 @@
 .. description: 
 .. type: text
 
-How would you do a random number generator on a device with no clock? Baterry Level?
+How would you do a random number generator on a device that can't have a clock? Baterry Level?
