@@ -9,4 +9,4 @@
 
 .. class:: lead
 
-A kind person once told me to read everything, and that why we are now here... Merry Christmas.
+A kind person once told me to read everything, and that is why we are now here... Merry Christmas!
