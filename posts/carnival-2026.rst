@@ -9,4 +9,4 @@
 
 .. class:: lead
 
-  Now that Christmas is almost over I can help but wait for Carnival, which next year will happen from February's 16th to 18th.
+  Now that Christmas is almost over I can't help but wait for Carnival, which next year will happen from February's 16th to 18th.
