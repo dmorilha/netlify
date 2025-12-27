@@ -1,4 +1,4 @@
-.. title: dui may be fatal
+.. title: DUI may be fatal
 .. slug: dui-may-be-fatal
 .. date: 2025-12-27 09:20:49 UTC-03:00
 .. tags: 
