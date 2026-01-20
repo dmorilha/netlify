@@ -1,0 +1,12 @@
+.. title: 123
+.. slug: 123
+.. date: 2026-01-20 14:47:11 UTC-03:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+
+.. class:: lead
+
+1 is too short, 2 is good, 3 is just way too much...
